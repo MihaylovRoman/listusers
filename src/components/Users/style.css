@@ -1,0 +1,67 @@
+.wrapper {
+    width: 350px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.input input {
+    height: 20px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid rgb(155, 145, 145);
+    border-radius: 15px;
+}
+
+.send-invite-btn {
+    cursor: pointer;
+    position: absolute;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-size: 14px;
+    top: 55.6%;
+    left: 42.2%;
+}
+.users-list{
+    list-style: none;
+}
+.user_container{
+    display: flex;
+    align-items: center;
+
+}
+.name-tag{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+}
+.user_point{
+    max-width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.name-tag>h3, .name-tag>p {
+    margin: 0;
+}
+.avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+}
+.action{
+    height: 24px;
+    width: 24px;
+}
